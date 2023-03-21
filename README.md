@@ -28,7 +28,6 @@ instans_av_klass.testa_importerad()
 in file /swescript/exempel
 
 ```
-
 modul.exporteras = funktion test(){
     för(låt x = 0; x<10; x++){
         om(x == 5){
@@ -42,10 +41,10 @@ modul.exporteras = funktion test(){
 # How to use
 
 ```
-Step one: create folder named swescript, here all files will be stored
-Step two: run 'ts-node swescript.ts' to compile
-Step three: run 'run/file_to_run.js' where file_to_run is the file you want to run
-
+Step one: create folder named swescript on base level, here all files will be stored
+Step two: create folder named run on base level, here the compiled code will be stored
+Step three: run 'ts-node swescript.ts' to compile
+Step four: run 'run/file_to_run.js' where file_to_run is the file you want to run
 ```
 
 # Currently supported keywords
