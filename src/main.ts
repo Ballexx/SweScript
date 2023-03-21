@@ -13,5 +13,3 @@ export class Transpiler{
         Filemanager.read_dir(path.join(__dirname, "../run"))
     }
 }
-
-
