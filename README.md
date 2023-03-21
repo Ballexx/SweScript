@@ -4,7 +4,7 @@
 
 # Example
 
-in file /swescript
+in file /swescript/main.swescript
 
 ```
 konstant importerad_variabel = kräv("./exempel/test")
@@ -25,7 +25,7 @@ låt instans_av_klass = ny test()
 instans_av_klass.testfunk()
 instans_av_klass.testa_importerad()
 ```
-in file /swescript/exempel
+in file /swescript/test/example.swescript
 
 ```
 modul.exporteras = funktion test(){
@@ -40,12 +40,12 @@ modul.exporteras = funktion test(){
 
 # How to use
 
-```
-Step one: create folder named swescript on base level, here all files will be stored
-Step two: create folder named run on base level, here the compiled code will be stored
-Step three: run 'ts-node swescript.ts' to compile
-Step four: run 'run/file_to_run.js' where file_to_run is the file you want to run
-```
+* Step one: create folder named swescript on base level, here all files will be stored
+* Step two: create folder named run on base level, here the compiled code will be stored
+* Step three: all files in swescript folder that will be compiled needs to end with .swescript
+* Step four: run 'ts-node swescript.ts' to compile
+* Step five: run 'run/file_to_run.js' where file_to_run is the file you want to run
+
 
 # Currently supported keywords
 
