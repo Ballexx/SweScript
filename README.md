@@ -110,4 +110,7 @@ modul.exporteras = funktion test(){
 "if":"om",
 "new": "ny",
 "typeof":"typav"
+"case":"fall",
+"async":"asynkron",
+"await":"vänta"
 ```

@@ -58,5 +58,8 @@ export const commands = {
     "else":"annars",
     "if":"om",
     "new": "ny",
-    "typeof":"typav"
-} 
+    "typeof":"typav",
+    "case":"fall",
+    "async":"asynkron",
+    "await":"vänta"
+}

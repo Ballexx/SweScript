@@ -1,0 +1,23 @@
+för(låt x = 0; x<5; x++) {
+    om (x % 2 == 0)
+        bryt
+
+    konsol.skriv("fortsätt")
+}
+
+
+klass test {
+    konstruktor() {
+        denna.boob = "asdasdasd"
+    }
+
+    wow() {
+        konsol.skriv(denna.boob)
+    }
+}
+
+
+
+konstant t = ny test()
+
+t.wow()
